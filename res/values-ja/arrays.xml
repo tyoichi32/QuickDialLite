@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="list_dorc">
+		<item>番号入力</item>
+		<item>発信</item>
+	</string-array>
+	<string-array name="list_dorcvalues">
+		<item>dial</item>
+		<item>call</item>
+	</string-array>
+
+	<string-array name="list_height">
+		<item>+16px</item>
+		<item>+12px</item>
+		<item>+8px</item>
+		<item>+4px</item>
+		<item>Defaut</item>
+	</string-array>
+	<string-array name="list_heightvalues">
+		<item>16</item>
+		<item>12</item>
+		<item>8</item>
+		<item>4</item>
+		<item>0</item>
+	</string-array>
+
+	<string-array name="list_charsize">
+		<item>size22</item>
+		<item>size20</item>
+		<item>size18</item>
+		<item>size16</item>
+		<item>size14</item>
+	</string-array>
+	<string-array name="list_charsizevalues">
+		<item>22.0f</item>
+		<item>20.0f</item>
+		<item>18.0f</item>
+		<item>16.0f</item>
+		<item>14.0f</item>
+	</string-array>
+
+</resources>

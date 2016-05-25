@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickDial Lite</string>
+
+    <string name="main_message">please push a button to call(dial)</string>
+
+    <string name="category1">DialSetting-1</string>
+    <string name="category2">DialSetting-2</string>
+    <string name="category3">DialSetting-3</string>
+    <string name="category4">DialSetting-4</string>
+    <string name="category5">DialSetting-5</string>
+    <string name="category6">DialSetting-6</string>
+    <string name="category7">DialSetting-7</string>
+    <string name="category8">DialSetting-8</string>
+    <string name="category9">DialSetting-9</string>
+    <string name="category10">DialSetting-10</string>
+
+    <string name="prefsc_summary">pick up from contacts</string>
+    <string name="prefsc_title">pick up from contacts</string>
+
+    <string name="prefsc_summary_free">ManualSetting</string>
+    <string name="prefsc_title_free_name">Name</string>
+    <string name="prefsc_title_free_telno">PhoneNumber</string>
+
+    <string name="prefsc_title_del">Delete</string>
+
+    <string name="txt_no_reg">No registration</string>
+
+	<string name="categoryGeneral">General</string>
+	<string name="categoryContactSetting">ContacstSetting</string>
+
+	<string name="list_title_dorc">Select Action</string>
+	<string name="list_summary_dorc">Dial or Call</string>
+	<string name="list_dialogtitle_dorc">Select Action</string>
+
+	<string name="list_title_listheight">List Height</string>
+	<string name="list_summary_listheight">List Height</string>
+	<string name="list_dialogtitle_listheight">List Heightn</string>
+
+	<string name="list_title_charsize">Font Size</string>
+	<string name="list_summary_charsize">Font Size</string>
+	<string name="list_dialogtitle_charsize">Font Size</string>
+
+    <string name="settinglavel">Config</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4015876919076184/3093401354</string>
+
+</resources>

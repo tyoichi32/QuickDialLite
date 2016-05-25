@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickDial Lite</string>
+
+    <string name="main_message">ボタンを押すとダイヤルします。</string>
+
+    <string name="category1">１番目のダイヤル設定</string>
+    <string name="category2">２番目のダイヤル設定</string>
+    <string name="category3">３番目のダイヤル設定</string>
+    <string name="category4">４番目のダイヤル設定</string>
+    <string name="category5">５番目のダイヤル設定</string>
+    <string name="category6">６番目のダイヤル設定</string>
+    <string name="category7">７番目のダイヤル設定</string>
+    <string name="category8">８番目のダイヤル設定</string>
+    <string name="category9">９番目のダイヤル設定</string>
+    <string name="category10">10番目のダイヤル設定</string>
+
+    <string name="prefsc_summary">連絡先から取得</string>
+    <string name="prefsc_title">連絡先から取得</string>
+
+
+
+
+	<string name="prefsc_summary_free">連絡先から取得</string>
+    <string name="prefsc_title_free_name">名前手動設定</string>
+    <string name="prefsc_title_free_telno">番号手動設定</string>
+
+
+
+
+
+    <string name="prefsc_title_del">このダイヤル先を削除</string>
+
+    <string name="txt_no_reg">登録なし</string>
+
+	<string name="categoryGeneral">一般</string>
+	<string name="categoryContactSetting">連絡先</string>
+
+	<string name="list_title_dorc">動作選択</string>
+	<string name="list_summary_dorc">番号入力or通話</string>
+	<string name="list_dialogtitle_dorc">動作選択</string>
+
+	<string name="list_title_listheight">リストの高さ</string>
+	<string name="list_summary_listheight">リストの高さ</string>
+	<string name="list_dialogtitle_listheight">高さ選択</string>
+
+	<string name="list_title_charsize">文字サイズ</string>
+	<string name="list_summary_charsize">文字サイズ</string>
+	<string name="list_dialogtitle_charsize">サイズ選択</string>
+
+    <string name="settinglavel">設定</string>
+
+</resources>

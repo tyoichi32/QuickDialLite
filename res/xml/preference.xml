@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<PreferenceCategory android:title="@string/categoryGeneral">
+		<ListPreference
+			android:title="@string/list_title_dorc"
+			android:summary="@string/list_summary_dorc"
+			android:dialogTitle="@string/list_dialogtitle_dorc"
+			android:entries="@array/list_dorc"
+			android:entryValues="@array/list_dorcvalues"
+			android:key="selected_action_cord" />
+		<ListPreference
+			android:title="@string/list_title_listheight"
+			android:summary="@string/list_summary_listheight"
+			android:dialogTitle="@string/list_dialogtitle_listheight"
+			android:entries="@array/list_height"
+			android:entryValues="@array/list_heightvalues"
+			android:key="selected_action_listheight" />
+		<ListPreference
+			android:title="@string/list_title_charsize"
+			android:summary="@string/list_summary_charsize"
+			android:dialogTitle="@string/list_dialogtitle_charsize"
+			android:entries="@array/list_charsize"
+			android:entryValues="@array/list_charsizevalues"
+			android:key="selected_action_charsize" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/categoryContactSetting" >
+		<PreferenceScreen
+			android:summary="@string/category1"
+			android:title="@string/category1"
+			android:key="pref_screen_dial_root1">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen1"/>
+			<!-- EditTextPreference
+				 android:summary="@string/prefsc_summary_free"
+				 android:title="@string/prefsc_title_free_name"
+				 android:inputType="textPersonName"
+				 android:maxLength="5"
+				 android:key="pref_screen_free_name1"/>
+			<EditTextPreference
+				 android:summary="@string/prefsc_summary_free"
+				 android:title="@string/prefsc_title_free_telno"
+				 android:inputType="phone"
+				 android:maxLength="5"
+				 android:key="pref_screen_free_telno1"/-->
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category1"
+				android:key="pref_screen_del1" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category2"
+			android:title="@string/category2"
+			android:key="pref_screen_dial_root2">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen2" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category2"
+				android:key="pref_screen_del2" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category3"
+			android:title="@string/category3"
+			android:key="pref_screen_dial_root3">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen3" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category3"
+				android:key="pref_screen_del3" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category4"
+			android:title="@string/category4"
+			android:key="pref_screen_dial_root4">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen4" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category4"
+				android:key="pref_screen_del4" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category5"
+			android:title="@string/category5"
+			android:key="pref_screen_dial_root5">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen5" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category5"
+				android:key="pref_screen_del5" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category6"
+			android:title="@string/category6"
+			android:key="pref_screen_dial_root6">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen6" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category6"
+				android:key="pref_screen_del6" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category7"
+			android:title="@string/category7"
+			android:key="pref_screen_dial_root7">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen7" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category7"
+				android:key="pref_screen_del7" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category8"
+			android:title="@string/category8"
+			android:key="pref_screen_dial_root8">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen8" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category8"
+				android:key="pref_screen_del8" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category9"
+			android:title="@string/category9"
+			android:key="pref_screen_dial_root9">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen9" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category9"
+				android:key="pref_screen_del9" />
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:summary="@string/category10"
+			android:title="@string/category10"
+			android:key="pref_screen_dial_root10">
+			<PreferenceScreen
+				android:summary="@string/prefsc_summary"
+				android:title="@string/prefsc_title"
+				android:key="pref_screen10" />
+			<PreferenceScreen
+				android:title="@string/prefsc_title_del"
+				android:summary="@string/category10"
+				android:key="pref_screen_del10" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+
+</PreferenceScreen>
